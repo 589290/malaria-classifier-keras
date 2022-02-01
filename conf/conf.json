@@ -1,0 +1,9 @@
+{
+  "model"           : "vgg19",
+  "include_top"     : false,
+  "train_path"      : "dataset20/train",
+  "test_path"       : "dataset20/test",
+  "test_size"       : 0.20,
+  "seed"            : 42,
+  "num_classes"     : 2
+}

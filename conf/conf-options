@@ -1,0 +1,51 @@
+The model key takes in any of these parameters - inceptionv3, resnet50, vgg16, vgg19, xception, inceptionresnetv2 and mobilenet.
+
+The weights key takes the value imagenet specifying that we intend to use weights from imagenet. You can also set this to None if you wish to train the network from scratch.
+
+The include_top key takes the value false specifying that we are going to take the features from any intermediate layer of the network. You can set this to true if you want to extract features before the fully connected layers.
+
+The test_size key takes the value in the range (0.10 - 0.90). This is to make a split between your overall data into training and testing.
+
+The seed key takes any value to reproduce same results everytime you run the code.
+
+The num_classes specifies the number of classes or labels considered for the image classification problem.
+
+
+tensorflowjs_converter --input_format=keras /x/output/vgg16/model_0.2.h5 /x/output/vgg16-js
+
+
+.//Google Drive/workspace/tf_anaconda/env2/lib/python3.6/site-packages/keras/applications/inception_v3.py
+.//Google Drive/workspace/tf_anaconda/env2/lib/python3.6/site-packages/tensorflow/keras/applications/inception_v3
+.//Google Drive/workspace/tf_anaconda/env2/lib/python3.6/site-packages/tensorflow/keras/applications/inception_v3/__init__.py
+.//Google Drive/workspace/tf_anaconda/env2/lib/python3.6/site-packages/tensorflow/python/keras/applications/inception_v3.py
+.//Google Drive/workspace/tf_anaconda/env2/lib/python3.6/site-packages/tensorflow/contrib/keras/api/keras/applications/inception_v3
+.//Google Drive/workspace/tf_anaconda/env2/lib/python3.6/site-packages/tensorflow/contrib/keras/api/keras/applications/inception_v3/__init__.py
+.//Google Drive/workspace/tf_anaconda/env2/lib/python3.6/site-packages/keras_applications/inception_v3.py
+.//anaconda3/pkgs/keras-base-2.2.4-py36_0/lib/python3.6/site-packages/keras/applications/inception_v3.py
+.//anaconda3/pkgs/tensorflow-base-1.10.0-eigen_py36h4f0eeca_0/lib/python3.6/site-packages/tensorflow/keras/applications/inception_v3
+.//anaconda3/pkgs/tensorflow-base-1.10.0-eigen_py36h4f0eeca_0/lib/python3.6/site-packages/tensorflow/keras/applications/inception_v3/__init__.py
+.//anaconda3/pkgs/tensorflow-base-1.10.0-eigen_py36h4f0eeca_0/lib/python3.6/site-packages/tensorflow/python/keras/applications/inception_v3.py
+.//anaconda3/pkgs/tensorflow-base-1.10.0-eigen_py36h4f0eeca_0/lib/python3.6/site-packages/tensorflow/contrib/keras/api/keras/applications/inception_v3
+.//anaconda3/pkgs/tensorflow-base-1.10.0-eigen_py36h4f0eeca_0/lib/python3.6/site-packages/tensorflow/contrib/keras/api/keras/applications/inception_v3/__init__.py
+
+.//anaconda3/pkgs/keras-applications-1.0.6-py36_0/lib/python3.6/site-packages/keras_applications/inception_v3.py
+.//anaconda3/pkgs/keras-applications-1.0.4-py36_1/lib/python3.6/site-packages/keras_applications/inception_v3.py
+
+.//anaconda3/pkgs/keras-base-2.2.2-py36_0/lib/python3.6/site-packages/keras/applications/inception_v3.py
+.//anaconda3/pkgs/tensorflow-base-1.11.0-mkl_py36h70e0e9a_0/lib/python3.6/site-packages/tensorflow/keras/applications/inception_v3
+.//anaconda3/pkgs/tensorflow-base-1.11.0-mkl_py36h70e0e9a_0/lib/python3.6/site-packages/tensorflow/keras/applications/inception_v3/__init__.py
+.//anaconda3/pkgs/tensorflow-base-1.11.0-mkl_py36h70e0e9a_0/lib/python3.6/site-packages/tensorflow/python/keras/applications/inception_v3.py
+.//anaconda3/pkgs/tensorflow-base-1.11.0-mkl_py36h70e0e9a_0/lib/python3.6/site-packages/tensorflow/contrib/keras/api/keras/applications/inception_v3
+.//anaconda3/pkgs/tensorflow-base-1.11.0-mkl_py36h70e0e9a_0/lib/python3.6/site-packages/tensorflow/contrib/keras/api/keras/applications/inception_v3/__init__.py
+
+File "/Users/miernickig/anaconda3/envs/env2/lib/python3.6/site-packages/keras/engine/network.py", line 358, in get_layer
+
+python test.py 
+{'data': '/Users/miernickig/anaconda3/envs/env2',
+ 'include': '/Users/miernickig/anaconda3/envs/env2/include/python3.6m',
+ 'platinclude': '/Users/miernickig/anaconda3/envs/env2/include/python3.6m',
+ 'platlib': '/Users/miernickig/anaconda3/envs/env2/lib/python3.6/site-packages',
+ 'platstdlib': '/Users/miernickig/anaconda3/envs/env2/lib/python3.6',
+ 'purelib': '/Users/miernickig/anaconda3/envs/env2/lib/python3.6/site-packages',
+ 'scripts': '/Users/miernickig/anaconda3/envs/env2/bin',
+ 'stdlib': '/Users/miernickig/anaconda3/envs/env2/lib/python3.6'}
